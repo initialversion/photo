@@ -27,6 +27,15 @@
         <input type="text" id="location" name="location" placeholder="Location" class="form-control" value="<%= @photo.location %>">
       </div>
 
+      <!-- Label and input for caption -->
+      <div class="form-group">
+        <label for="caption" class="control-label">
+          Caption
+        </label>
+
+        <input type="text" id="caption" name="caption" placeholder="Caption" class="form-control" value="<%= @photo.caption %>">
+      </div>
+
       <button class="btn btn-warning">
         Update Photo
       </button>
